@@ -2,7 +2,7 @@
 
 /**
  *main - Entry point
- *fuction used: puts 
+ *fuction used:puts 
  *printf not allowed
  *return 0
  */
