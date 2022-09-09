@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- *main:Entry point
+ *main - Entry point
  *fuction used:puts
  *printf not allowed
- *return 0
+ *Return: Always 0 (Success)
  */
 
 int main(void)
