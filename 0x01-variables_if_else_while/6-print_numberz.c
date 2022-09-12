@@ -17,7 +17,7 @@ while (number <= 9)
 {
 /*convertnumber to ASCII representation*/
 putchar(number + '0');
-++number;      
+++number;
 }
 putchar('\n');
 return (0);
