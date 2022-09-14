@@ -2,11 +2,8 @@
 
 /**
 * print_alphabet_x10 - prints the alphabet in lowercase
-
 * followed by new line.
-
 *
-
 * Return: Always 0.
 
 */
