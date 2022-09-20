@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h" 
 
 /**
@@ -5,19 +6,61 @@
 * puts2 - prints xters of a string
 * @str: the used string reference
 * Return: 0
+*
+**/
+
+void rev_string(char *s)
+
+{
+
+int i, tmp, len = _strlen(s);
+
+
+
+for (i = 0; i < len / 2; i++)
+
+{
+
+tmp = *(s + i);
+
+*(s + i) = *(s + len - i - 1);
+
+*(s + len - i - 1) = tmp;
+
+}
+
+}
+
+
+
+/**
+
+* _strlen - returns the length of a string
+
+* @s: string
+
+*
+
+* Return: the length of the given string
+
 */
 
-void puts2(char *str)
-{
-	int i = 0;
 
-	while (str[i] != '\0')
-	{
-		if (i % 2 == 0)
-		{
-			_putchar(str[i]);
-		}
-		i++;
-	}
-	_putchar('\n');
+
+int _strlen(char *s)
+  
+{
+  
+  int len = 0;
+  
+
+  
+  while (*(s + len) != '\0')
+    
+    len++;
+  
+
+  
+  return (len);
+  
 }
