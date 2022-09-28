@@ -4,12 +4,15 @@
  *
  * @s: string to put to stdout
  *
- * Return: always void
- */
+ * Return: always voi
+*/
+
 void _print_rev_recursion(char *s)
+
 {
 if (!*s) /* if s points to null char */
 return;
 _print_rev_recursion(s + 1);
 _putchar(*s);
+
 }
