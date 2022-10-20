@@ -1,1 +1,1 @@
-0x12. C - Singly linked lists
+New Task for 0x12. C - Singly linked lists
