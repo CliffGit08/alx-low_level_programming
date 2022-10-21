@@ -16,3 +16,4 @@ void free_list(list_t *head)
 		free(crnt_node->str);
 		free(crnt_node);
 	}
+}
